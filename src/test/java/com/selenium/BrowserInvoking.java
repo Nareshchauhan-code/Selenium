@@ -22,6 +22,8 @@ public class BrowserInvoking {
 
         System.out.println(webDriver.getCurrentUrl());
         System.out.println(webDriver.getTitle());
+        System.out.println(webDriver.getPageSource());
+        webDriver.quit();
 
 
     }
