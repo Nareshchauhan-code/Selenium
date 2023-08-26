@@ -2,7 +2,131 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/rahulsetty/LocatorsDemo.java">
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/AutocompleteGooglePlacesDropDown.java">
+        <classes>
+            <class name="com.selenium.AutocompleteGooglePlacesDropDown">
+                <methods>
+                    <include name="autocompleteGooglePlacesDropDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/AutoSuggestDropDown.java">
+        <classes>
+            <class name="com.selenium.AutoSuggestDropDown">
+                <methods>
+                    <include name="autoSuggestDropDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/BootstrapDropDown.java">
+        <classes>
+            <class name="com.selenium.BootstrapDropDown">
+                <methods>
+                    <include name="genericMethod"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/BrowserInvoking.java">
+        <classes>
+            <class name="com.selenium.BrowserInvoking">
+                <methods>
+                    <include name="browserInvoking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/DisplayedEnableAndSelected.java">
+        <classes>
+            <class name="com.selenium.DisplayedEnableAndSelected">
+                <methods>
+                    <include name="checkDisplayed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/DropDown.java">
+        <classes>
+            <class name="com.selenium.DropDown">
+                <methods>
+                    <include name="dropDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/DropDownDemo.java">
         <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/Dropdowns.java">
+        <classes>
+            <class name="com.selenium.Dropdowns">
+                <methods>
+                    <include name="dropDown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/DrpNaresh.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/FindElement_FindElements.java">
+        <classes>
+            <class name="com.selenium.FindElement_FindElements">
+                <methods>
+                    <include name="findElement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/GetTextGetAttribute.java">
+        <classes>
+            <class name="com.selenium.GetTextGetAttribute">
+                <methods>
+                    <include name="getText"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/HandleBrowserWindows.java">
+        <classes>
+            <class name="com.selenium.HandleBrowserWindows">
+                <methods>
+                    <include name="handleBrowserWindows"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/JQueryDropdown.java">
+        <classes>
+            <class name="com.selenium.JQueryDropdown">
+                <methods>
+                    <include name="jQueryDropdown"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Naresh Chauhan/IdeaProject/Selenium/src/test/java/com/selenium/NavigateBackForward.java">
+        <classes>
+            <class name="com.selenium.NavigateBackForward">
+                <methods>
+                    <include name="Navigate"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

@@ -1,6 +1,6 @@
 package com.selenium;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ public class BrowserInvoking {
     @Test
     void browserInvoking() {
 
-        WebDriverManager.chromedriver().setup();
+
 
         WebDriver webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();

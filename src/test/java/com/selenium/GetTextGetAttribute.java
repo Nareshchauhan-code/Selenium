@@ -1,6 +1,6 @@
 package com.selenium;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,8 +12,6 @@ import java.time.Duration;
 public class GetTextGetAttribute {
 @Test
     void getText() {
-
-        WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

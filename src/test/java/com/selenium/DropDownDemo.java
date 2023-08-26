@@ -1,6 +1,6 @@
 package com.selenium;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,7 +14,6 @@ public class DropDownDemo {
 
         // Start firefox browser
 
-        WebDriverManager.firefoxdriver().setup();
         FirefoxDriver driver = new FirefoxDriver();
 
 
